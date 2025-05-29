@@ -16,7 +16,7 @@ MODEL_SAVE_PATH    = "mall_cnn.h5"                             # Ruta donde se g
 PREDICT_IMAGE_PATH = os.path.join(FRAMES_DIR, "seq_000970.jpg")# Imagen para predecir y visualizar
 MODE               = 'compare'                                 # 'train', 'predict' o 'compare'
 BATCH_SIZE         = 16
-EPOCHS             = 150
+EPOCHS             = 300
 N_COMPARE          = 5                                         # Cantidad de imágenes a comparar en modo 'compare'
 
 
